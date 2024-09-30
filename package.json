@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "ci": "jest",
     "test": "jest --watch",
     "dev": "tsc --watch"
   },
