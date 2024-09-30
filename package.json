@@ -1,0 +1,21 @@
+{
+  "name": "libtactoe",
+  "version": "1.0.0",
+  "description": "- Basic game functionality (play on a coordinate, determine winner, restart game) - Small test suite - CI/CD for publishing to GitHub packages - Simple readme",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watch",
+    "dev": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "ts-jest": "^29.2.5"
+  }
+}

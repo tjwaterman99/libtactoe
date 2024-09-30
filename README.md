@@ -1,0 +1,4 @@
+- Basic game functionality (play on a coordinate, determine winner, restart game)
+- Small test suite
+- CI/CD for publishing to GitHub packages
+- Simple readme
